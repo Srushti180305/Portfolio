@@ -1,0 +1,144 @@
+:root {
+  /* Palette */
+  --c-1: #3E3239;
+  --c-2: #6B5560;
+  --c-3: #9E8189;
+  --c-4: #C7A9A3;
+  --c-5: #E8D2C4;
+  --c-6: #F7EFE7;
+
+  /* Roles (light theme default) */
+  --bg: var(--c-6);
+  --bg-alt: var(--c-5);
+  --surface: rgba(255, 255, 255, 0.55);
+  --border: var(--c-4);
+  --text: var(--c-1);
+  --text-muted: var(--c-2);
+  --heading: var(--c-1);
+  --accent: var(--c-2);
+  --on-accent: var(--c-6);
+  --decor: var(--c-3);
+
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --radius: 20px;
+  --shadow: 0 10px 30px rgba(62, 50, 57, 0.1);
+}
+
+/* Dark theme (optional toggle later) */
+[data-theme='dark'] {
+  --bg: var(--c-1);
+  --bg-alt: #4a3d44;
+  --surface: rgba(107, 85, 96, 0.35);
+  --border: var(--c-2);
+  --text: var(--c-6);
+  --text-muted: var(--c-4);
+  --heading: var(--c-5);
+  --accent: var(--c-4);
+  --on-accent: var(--c-1);
+  --decor: var(--c-3);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--heading);
+  line-height: 1.2;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Reusable classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-alt {
+  background: var(--bg-alt);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+}
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}

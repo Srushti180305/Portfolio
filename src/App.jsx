@@ -6,11 +6,10 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { Fragment } from 'react'
 
 function App() {
   return (
-    <Fragment>
+    <>
       <Navbar />
       <main>
         <Hero />
@@ -20,7 +19,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </Fragment>
+    </>
   )
 }
 

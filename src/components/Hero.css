@@ -1,0 +1,40 @@
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(199, 169, 163, 0.45), transparent 45%),
+    radial-gradient(circle at 10% 90%, rgba(232, 210, 196, 0.8), transparent 50%),
+    var(--bg);
+}
+
+.hero-eyebrow {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-name {
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+}
+
+.hero-role {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: var(--accent);
+  margin: 0.75rem 0 1.25rem;
+}
+
+.hero-pitch {
+  max-width: 520px;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
