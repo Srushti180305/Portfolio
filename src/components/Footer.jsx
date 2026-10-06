@@ -1,4 +1,4 @@
-import { profile } from '../data'
+import { profile } from '../Data'
 
 function Footer() {
   return (

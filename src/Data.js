@@ -2,7 +2,7 @@ export const profile = {
   name: 'Srushti Lingashettar',
   role: 'Java Full Stack Developer',
   pitch: 'I build full-stack web apps with Spring Boot and React.',
-  bio: 'Computer Science Engineering graduate trained in Java, Spring Boot, Hibernate, REST APIs, MySQL and React. I enjoy turning ideas into working products, from database design to the user interface, and I am looking for my first role as a full stack developer.',
+  bio: 'I’m a Computer Science graduate and aspiring Java Full Stack Developer. Skilled in Java, Spring Boot, Hibernate, REST APIs, SQL, JavaScript, and React. I enjoy building practical applications and understanding how systems work internally. I have hands-on experience with backend development, databases, authentication, and API integration. Currently strengthening my skills in DSA, Spring, and AI technologies.  I’m looking for an opportunity to contribute, learn, and grow as a software engineer.',
   email: 'lingshettersrushti@gmail.com',
   github: 'https://github.com/Srushti180305',
   linkedin: 'https://www.linkedin.com/in/srushti-lingashettar-941002280',
@@ -39,6 +39,5 @@ export const projects = [
 ]
 
 export const education = [
-  { title: 'B.E. Computer Science', place: 'Proudhadevaraya Institute of Technology, Hospete', period: '2022 - 2026' },
-  { title: 'Pre-University (PCMB)', place: "KLE's Prerana Residential PU College, Hubli", period: '2020 - 2022' },
+  { title: 'B.E. Computer Science', place: 'Proudhadevaraya Institute of Technology, Hospete', period: '2022 - 2026' }
 ]

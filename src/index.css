@@ -23,6 +23,7 @@
   --font-heading: 'Playfair Display', Georgia, serif;
   --radius: 20px;
   --shadow: 0 10px 30px rgba(62, 50, 57, 0.1);
+  --nav-bg: rgba(247, 239, 231, 0.85);
 }
 
 /* Dark theme (optional toggle later) */
@@ -38,6 +39,7 @@
   --on-accent: var(--c-1);
   --decor: var(--c-3);
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+ --nav-bg: rgba(62, 50, 57, 0.85);
 }
 
 /* Reset */
@@ -141,4 +143,10 @@ ul {
   text-align: center;
   color: var(--text-muted);
   border-top: 1px solid var(--border);
+}
+.section { scroll-margin-top: 70px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
 }
