@@ -61,6 +61,7 @@ function Hero() {
         <div className="hero-buttons fade-up" style={{ animationDelay: '0.6s' }}>
           <a href="#projects" className="btn">View Projects</a>
           <a href="#contact" className="btn btn-outline">Contact Me</a>
+          <a href="/Srushti_Lingashettar_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">Resume</a>
         </div>
       </div>
     </section>

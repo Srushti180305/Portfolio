@@ -21,7 +21,8 @@ export const projects = [
   {
     title: 'CineFlow',
     subtitle: 'Full-Stack Movie Ticket Booking Platform',
-    description: '...',
+    description:
+      'A movie ticket booking platform built with Spring Boot and MySQL. I integrated the Razorpay payment gateway, designed the database schema for the core modules, fixed Cloudinary upload and admin login bugs, and moved app secrets to a secure .env setup.',
     tech: ['Spring Boot', 'Thymeleaf', 'MySQL', 'Spring Data JPA', 'Razorpay', 'Cloudinary'],
     github: 'https://github.com/Srushti180305/CineFlow',
     live: '',
@@ -29,13 +30,13 @@ export const projects = [
   {
     title: 'LifeOS',
     subtitle: 'Personal Productivity Dashboard',
-    description: '...',
+    description:
+      'A personal productivity app built with React and Vite, with Tasks, Notes, Habits, Expenses, Goals and Planner modules. It has full CRUD using Axios and JSON Server, a dashboard summary, client-side routing, and a dark/light theme toggle.',
     tech: ['React', 'Vite', 'React Router', 'Axios', 'JSON Server'],
     github: 'https://github.com/Srushti180305/LifeOS',
     live: '',
   },
 ]
-
 export const education = [
   { title: 'B.E. Computer Science', place: 'Proudhadevaraya Institute of Technology, Hospete', period: '2022 - 2026' }
 ]
