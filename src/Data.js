@@ -5,7 +5,7 @@ export const profile = {
   bio: 'I’m a Computer Science graduate and aspiring Java Full Stack Developer. Skilled in Java, Spring Boot, Hibernate, REST APIs, SQL, JavaScript, and React. I enjoy building practical applications and understanding how systems work internally. I have hands-on experience with backend development, databases, authentication, and API integration. Currently strengthening my skills in DSA, Spring, and AI technologies.  I’m looking for an opportunity to contribute, learn, and grow as a software engineer.',
   email: 'lingshettersrushti@gmail.com',
   github: 'https://github.com/Srushti180305',
-  linkedin: 'https://www.linkedin.com/in/srushti-lingashettar-941002280',
+  linkedin: 'https://www.linkedin.com/in/srushti-lingashettar',
   location: 'Bengaluru, Karnataka',
 }
 
