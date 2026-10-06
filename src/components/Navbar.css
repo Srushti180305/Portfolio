@@ -76,8 +76,16 @@
   transition: transform 0.3s ease;
 }
 
-.icon-btn:hover {
-  transform: rotate(20deg) scale(1.05);
+@media (hover: hover) {
+  .icon-btn:hover {
+    background: var(--accent);
+    color: var(--on-accent);
+    transform: scale(1.06);
+  }
+}
+
+.icon-btn:active {
+  transform: scale(0.94);
 }
 
 .menu-btn {
