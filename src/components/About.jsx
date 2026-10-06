@@ -1,5 +1,6 @@
 import { profile } from '../Data'
 import Reveal from './Reveal'
+import photo from '../assets/profile.jpeg'
 
 function About() {
   return (
@@ -10,7 +11,9 @@ function About() {
         </Reveal>
         <div className="about-grid">
           <Reveal>
-            <div className="avatar">SL</div>
+            <div className="avatar">
+                <img src={photo} alt="Portrait of Srushti Lingashettar" />
+            </div>
           </Reveal>
           <Reveal delay={150}>
             <p className="about-bio">{profile.bio}</p>

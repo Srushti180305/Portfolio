@@ -21,19 +21,17 @@ export const projects = [
   {
     title: 'CineFlow',
     subtitle: 'Full-Stack Movie Ticket Booking Platform',
-    description:
-      'Integrated the Razorpay payment gateway, designed the database schema for core modules, fixed Cloudinary upload and admin login bugs, and moved secrets to a secure .env setup.',
+    description: '...',
     tech: ['Spring Boot', 'Thymeleaf', 'MySQL', 'Spring Data JPA', 'Razorpay', 'Cloudinary'],
-    github: '',
+    github: 'https://github.com/Srushti180305/CineFlow',
     live: '',
   },
   {
     title: 'LifeOS',
     subtitle: 'Personal Productivity Dashboard',
-    description:
-      'A dashboard with Tasks, Notes, Habits, Expenses, Goals and Planner modules. Full CRUD with Axios and JSON Server, client-side routing, and a dark/light theme toggle.',
+    description: '...',
     tech: ['React', 'Vite', 'React Router', 'Axios', 'JSON Server'],
-    github: '',
+    github: 'https://github.com/Srushti180305/LifeOS',
     live: '',
   },
 ]
